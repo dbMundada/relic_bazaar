@@ -12,6 +12,13 @@ buildscript {
     }
 }
 
+"API_BASE_URL", "https://www.zego.com/mobileapi/\""
+"BFF_API_BASE_URL", "https://sense-bff.production-aws.zegocover.com/\""
+"API_BASE_URL", "https://staging.zego.com/mobileapi/\""
+"BFF_API_BASE_URL", "https://sense-bff.staging-aws.zegocover.com/\""
+"API_BASE_URL", "https://staging.zego.com/mobileapi/\""
+"BFF_API_BASE_URL", "https://sense-bff.staging-aws.zegocover.com/\""
+
 allprojects {
     repositories {
         google()
